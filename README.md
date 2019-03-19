@@ -1,2 +1,0 @@
-# Koulukamaa
-Kouulu Kamaaa
