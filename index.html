@@ -1,3 +1,16 @@
 <title>Locked.</title>
 <b>Locked.</b><br>
-<input type="text" placeholder="Unlock">
+<input type="password" placeholder="Unlock" id="pass"><input type="submit" onclick="passTest()">
+<script>
+const passInput = document.getElementById('pass');
+const password = "salasanakoulu5125";
+
+function passTest() {
+  if(passInput.value === password) {
+window.location = "sites-koulu/salasanakoulu5125.html";
+
+  } else {
+    console.log('Access denied');
+  }
+}
+</script>
