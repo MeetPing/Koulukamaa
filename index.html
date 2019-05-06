@@ -4,13 +4,20 @@
 <script>
 const passInput = document.getElementById('pass');
 const password = "salasanakoulu5125";
-
+//KOuLuSaLaSaNa812.html
 function passTest() {
   if(passInput.value === password) {
 window.location = "sites-koulu/salasanakoulu5125.html";
 
   } else {
     console.log('Access denied');
+    if(passInput.value === "KOuLuSaLaSaNa812.html") {
+window.location = "https://meetping.github.io/Koulukamaa/etusivu/KOuLuSaLaSaNa812.html";
+
+  } else {
+    console.log('Access denied');
+  }
+    
   }
 }
 </script>
